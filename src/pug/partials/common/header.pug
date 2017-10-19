@@ -1,0 +1,34 @@
+header.page-header
+	.container_fix
+		.row
+			.header-logo
+				a(href="index.html" class="header-logo__link")
+					img(src="src/img/logo.png" alt="")/
+
+				ul.social-icons
+					li
+						a(href="javascript:void(0);" class="icon-fb")
+					li
+						a(href="javascript:void(0);" class="icon-vk")
+					li
+						a(href="javascript:void(0);" class="icon-ok")
+
+			.menu.col-lg-8.col-md-8
+				
+				button(class="sandwich navbar-toggle collapsed" style="display: none;" data-toggle="collapse" data-target="#main-menu")
+					span
+					span
+					span
+					span
+
+				ul.lang
+					li.lang-item.lang-item--current
+						span Ru
+					li.lang-item
+						a(href="javascript:void(0);") En
+
+				.header-menu.nav-collapse.collapse#main-menu
+					ul
+						each menu_item in menu_items
+							li
+								a(href=menu_item.url) #{menu_item.title}

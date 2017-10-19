@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		include ../partials/common/head.pug
+
+	body
+
+		include ../partials/common/header.pug
+		//-include ../partials/main_services.pug
+
+		.projects.section-light
+			.section-heading
+				.container
+					h2
+						a(href="javascript:void(0);") Наши проекты
+
+			.section-data
+				.projects-slider.owl-carousel#projects-grid.owl-theme
+
+					.projects-item
+						.project.project-theme-wide(style="background-image: url('src/img/projects/christmas_ball.jpg');")
+							.project-shadow
+
+							.project-information
+								a(href="javascript:void(0);" class="project-link")
+									.project__title 
+										span Новогодний шар
+									.project__text
+										p Компания Зодиак Электро системно так внедряет инновационные технологии и позволяющие обеспечить 
+									.project__city Москва
+
+					.projects-item
+						.project
+							.project-information
+								a(href="javascript:void(0);" class="project-link")
+									.project__title
+										span Арт-объекты
+									.project__text
+										p Компания Зодиак Электро системно так внедряет инновационные технологии и позволяющие обеспечить 
+									.project__city Москва
+
+							a(href="javascript:void(0);" class="project-image" style="background-image: url('src/img/projects/art_objects.jpg');")
+
+						.hr-orange
+
+						.project.project-theme-reversed
+							.project-information
+								a(href="javascript:void(0);" class="project-link")
+									.project__title
+										span Светодинамическая инсталляция
+									.project__text
+										p Компания Зодиак Электро системно так внедряет инновационные технологии и позволяющие обеспечить 
+									.project__city Москва
+
+
+							a(href="javascript:void(0);" class="project-image" style="background-image: url('src/img/projects/installation.jpg');")
+
+					.projects-item
+						.project.project-theme-wide(style="background-image: url('src/img/projects/christmas_ball.jpg');")
+							.project-shadow
+
+							.project-information
+								a(href="javascript:void(0);" class="project-link")
+									.project__title 
+										span Новогодний шар
+									.project__text
+										p Компания Зодиак Электро системно так внедряет инновационные технологии и позволяющие обеспечить 
+									.project__city Москва
+
+					.projects-item
+						.project
+							.project-information
+								a(href="javascript:void(0);" class="project-link")
+									.project__title
+										span Арт-объекты
+									.project__text
+										p Компания Зодиак Электро системно так внедряет инновационные технологии и позволяющие обеспечить 
+									.project__city Москва
+
+							a(href="javascript:void(0);" class="project-image" style="background-image: url('src/img/projects/art_objects.jpg');")
+
+						.hr-orange
+
+						.project.project-theme-reversed
+							.project-information
+								a(href="javascript:void(0);" class="project-link")
+									.project__title
+										span Светодинамическая инсталляция
+									.project__text
+										p Компания Зодиак Электро системно так внедряет инновационные технологии и позволяющие обеспечить 
+									.project__city Москва
+
+
+							a(href="javascript:void(0);" class="project-image" style="background-image: url('src/img/projects/installation.jpg');")
+
+
+					
+
+				.dots-container
+					a(href="javascript:void(0);" class="dot-prev")
+
+					.dots-center.owl-dots#project-dots
+
+
+					a(href="javascript:void(0);" class="dot-next")
+
+
+		.about-us.section-light
+			.section-heading
+				.container
+					h2
+						a(href="javascript:void(0);") Группа компаний «Зодиак»
+
+			.section-data
+				.container
+					ul.summaries
+
+						li.summary.summary-bordered
+							.h3 
+								div 14
+								span лет работы
+
+							p.summary__text Уникальный новогодний шар в Москве явился настоящей сенсацией, новость о которой вышла далеко за рубежи России. В настоящее время наша инсталляции
+
+							div.summary__img
+								img(src="src/img/about/14.jpg" alt="")/
+						
+
+						li.summary.summary-horizontal
+
+							div.summary__img
+								img(src="src/img/about/138.jpg" alt="")/
+
+							.h3 
+								div 138
+								span объектов
+
+							p.summary__text Уникальный новогодний шар в Москве явился настоящей сенсацией, новость о которой вышла далеко за рубежи России. В настоящее время наша инсталляции
+
+						li.summary.summary-horizontal.summary-reversed
+
+							div.summary__img
+								img(src="src/img/about/work_cycle.jpg" alt="")/
+
+							.h3
+								div Полный
+								span цикл работ
+
+							p.summary__text Уникальный новогодний шар в Москве явился настоящей сенсацией, новость о которой вышла далеко за рубежи России. В настоящее время наша инсталляции
+
+
+		//-include ../partials/promo_a.pug
+
+		.production.section-dark
+			.section-heading
+				.container
+					h2
+						a(href="javascript:void(0);") Наша продукция
+
+			.section-data
+				.product-slider-wrapper
+					.product-slider.owl-carousel#product-slider
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 25 000 <i>Р</i>
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Разнообразные объекты
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 15 900 <i>Р</i>
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/tree.png" alt="")/
+
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer2.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Новогодние ёлки
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 31 230 <i>Р</i>
+
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 13 510 <i>Р</i>
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/birds.png" alt="")/
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 25 000 <i>Р</i>
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Разнообразные объекты
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 15 900 <i>Р</i>
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/tree.png" alt="")/
+
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer2.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Новогодние ёлки
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 31 230 <i>Р</i>
+
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 13 510 <i>Р</i>
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/birds.png" alt="")/
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 25 000 <i>Р</i>
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Разнообразные объекты
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 15 900 <i>Р</i>
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/tree.png" alt="")/
+
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer2.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Новогодние ёлки
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 31 230 <i>Р</i>
+
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 13 510 <i>Р</i>
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/birds.png" alt="")/
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 25 000 <i>Р</i>
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Разнообразные объекты
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 15 900 <i>Р</i>
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/tree.png" alt="")/
+
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer2.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Новогодние ёлки
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 31 230 <i>Р</i>
+
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 13 510 <i>Р</i>
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/birds.png" alt="")/
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 25 000 <i>Р</i>
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Разнообразные объекты
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 15 900 <i>Р</i>
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/tree.png" alt="")/
+
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer2.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Новогодние ёлки
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 31 230 <i>Р</i>
+
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 13 510 <i>Р</i>
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/birds.png" alt="")/
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 25 000 <i>Р</i>
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Разнообразные объекты
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 15 900 <i>Р</i>
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/tree.png" alt="")/
+
+
+						.product-slide
+
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/deer2.png" alt="")/
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Новогодние ёлки
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 31 230 <i>Р</i>
+
+
+						.product-slide
+
+							.product-slide__description
+								a(href="javascript:void(0);" class="link-default")
+									span Светодинамическая инсталляция
+								p.product-slide__text Компания Зодиак Электро системно так внедряет инновационные технологии эстетического вида участка и еще
+
+								.product-slider-bottom.clearfix
+									.order-button
+										button(type="button" class="btn btn-primary") Заказать
+
+									.price 13 510 <i>Р</i>
+							.product-slide__image
+								a(href="javascript:void(0);")
+									img(src="" class="owl-lazy" data-src="src/img/products/birds.png" alt="")/
+
+					.dots-container
+						a(href="javascript:void(0);" class="dot-prev")
+						.dots-center.owl-dots#products-dots
+						a(href="javascript:void(0);" class="dot-next")
+
+
+		//-include ../partials/recent_news.pug
+		//-include ../partials/partners.pug
+
+		include ../partials/common/footer.pug			
+		include ../partials/common/js.pug
